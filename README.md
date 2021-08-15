@@ -13,7 +13,7 @@
 | ARM-JTAG-20-10 | [https://www.mouser.com/ProductDetail/olimex-ltd/arm-jtag-20-10/?qs=DUTFWDROaMbVQp3WoAdijQ%3D%3D&countrycode=US&currencycode=USD][PlMe] |
 
 ## Software Dependencies
-| Repository | README |
+| Name | Instructions |
 | ------ | ------ |
 | bitcraze/crazyflie-lib-python | [https://github.com/bitcraze/crazyflie-lib-python/blob/master/docs/installation/install.md][PlDb] |
 | anaconda3 | [https://docs.anaconda.com/anaconda/install/linux/][PlDb] |
@@ -27,4 +27,10 @@ especially with building AI-Deck firmware.
 
 ### Anaconda
 Download the anaconda installer from the link provided above. Follow the installation instructions, first 
-install the *Debian* prerequisites if using Ubuntu 18.04 LTS. 
+install the *Debian* prerequisites if using Ubuntu 18.04 LTS. Setup an environment with python version (3.8) and 
+tensorflow version (2.5) to use the current model. If a newer neural network model is to be used, the tensorflow
+or python version may need to be updated in the anaconda virtual environment. 
+
+```sh
+conda create -n aideck python=3.8 tensorflow=2.5
+```
