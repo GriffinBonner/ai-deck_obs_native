@@ -3,6 +3,8 @@
 
 
 **UMBC Energy Efficient High Performance Computing Lab**
+
+
 **Faculty:** Tinoosh Mohsenin <tinoosh@umbc.edu>
 **Authors:** Griffin Bonner <griffi1@umbc.edu>, Haoran Ren <rhaoran1@umbc.edu>
 
