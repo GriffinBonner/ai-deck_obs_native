@@ -90,6 +90,7 @@ this repository cloned.
     cd ~/ai-deck_obs_native
     
 **4.** Run the following commands each in separate terminals:
+
 **Terminal 1** (start the autonomous control)
 
     python control.py
