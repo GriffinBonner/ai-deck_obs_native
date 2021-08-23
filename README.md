@@ -43,7 +43,7 @@ install the *Debian* prerequisites if using Ubuntu 18.04 LTS. Create an environm
 tensorflow version (2.5) with the following commands. If a newer neural network model is to be used, 
 the tensorflow or python version may need to be updated in the anaconda virtual environment. 
 ```sh
-conda create -n aideck python=3.8 tensorflow=2.5
+conda create -n aideck python=3.8 tensorflow=2.5 numpy=1.20.3
 conda install -c conda-forge pygobject
 conda install -c conda-forge gtk3
 ```
