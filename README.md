@@ -45,6 +45,7 @@ the tensorflow or python version may need to be updated in the anaconda virtual 
 ```sh
 conda create -n aideck python=3.8 tensorflow=2.5
 conda install -c conda-forge pygobject
+conda install -c conda-forge gtk3
 ```
 Each time you wish to work on the project or run the demo, you will need to run the following command in the 
 terminal to activate the anaconda virtual environment. If you do not activate the environment, the model will 
